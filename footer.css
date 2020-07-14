@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+	font-family: 'open sans';
+	text-transform: uppercase;
+}
+.container{
+	display: flex;
+}
+.blogpost{
+	flex:1;
+	display: flex;
+}
+.features{
+	margin-top: 50px;
+	flex:1;
+}
+.news{
+	margin:50px;
+	padding: 0px;
+}
+.news li{
+	margin:10px 0px;
+	list-style: none;
+}
+.dekho{
+	display: flex;
+	margin:20px;
+	padding: 10px;
+}
+.business{
+	margin-left: 20px;
+	line-height: 20px;
+}
+img{
+	border-radius: 5px;
+	width: 120px;
+	height: 120px;
+	box-shadow: 2px 2px 7px rgb(100,120,200);
+}
+h3{
+	margin:0;
+}
+p{
+	text-transform: capitalize;
+	margin-top: 10px;
+}
+.lst{
+	display: flex;
+	width: 90%;
+	margin: auto;
+	background-color: #020546;
+	color: white;
+	padding: 10px;
+	margin-top: 50px;
+	border-radius: 10px;
+	align-items: center;
+}	
+.left{
+	margin:15px;
+	padding: 10px;
+text-transform: lowercase;
+}
+.left h2{
+margin:0;
+}
+.left p{
+	text-transform: lowercase;
+}
+input[type="button"]{
+	height: 44px;
+	width: 160px;
+	margin-left: 100px;
+	font-size: 1rem;
+	background-color: #1034a6;
+	margin:auto;
+	color: white;
+	border: 0;
+	border-radius: 10px;
+}
