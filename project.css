@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+*{
+	margin:0;
+	padding: 0;
+	font-family: 'Roboto',sans-serif;
+}
+body{
+	overflow-x: hidden;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+	color: gray;
+
+}
+header ul{
+	display: flex;
+	list-style: none;
+}
+header ul li{
+	margin:0 30px;
+}
+header div{
+	margin:0 20px;
+}
+header div span{
+	margin:0 10px;
+}
+header ul li:hover,.active{
+color: black;
+cursor: pointer;
+}
+.upg{
+	color: black;
+	text-align: center;
+	padding: 4px 10px;
+	border:1px solid black;
+	border-radius: 30px;
+}
+.jg{
+	background-color: pink;
+	padding:10px;
+	border-radius: 50%;
+	color: white;	
+}
+.container{
+	width: 95%;
+	margin:10px auto;
+}
+aside{
+	width: 15%;
+	float: left;
+	height: 80vh;
+	background-color: rgba(50,50,50,1);
+	color: white;
+	padding: 10px;
+	border-radius: 30px;
+	position: relative;
+}
+.aside{
+margin-left: 20px;
+line-height: 30px;
+}
+.aside h3 {
+color: gray;
+}
+.aside ul {
+margin-top: 10px;
+list-style: none;
+}
+.view{
+	color: blue;
+}
+.foot{
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	margin:0 20px;
+}
+.small{
+	padding:15px;
+	background-color: rgba(1,1,1,0.5);
+	margin:10px auto;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.small h2{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.small button{
+	padding:7px 25px;
+	margin:10px;
+	border-radius: 5px;
+	border:1px solid rgba(1,1,1,0.5);
+}
+main{
+	width: 80%;
+	padding: 20px;
+	float: right;
+	height: 80vh;
+	border-radius: 20px;
+}
+main h2{
+	margin-left: 30px;
+}
+.main{
+	display: flex;
+	flex-wrap: wrap;
+}
+.box{
+	margin:20px;
+	display: flex;
+	flex-direction: column;	
+	justify-content: center;
+	align-items: center;
+}
+small{
+	margin-top: 10px;
+	font-size: 1em;
+}
+.box-content{
+	border:1px solid ;
+	border-radius: 20px;
+	color: white;
+	height: 150px;
+	width: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 40px;
+}
+#content{
+	background-color: white;
+	color: gray;
+	border:1px solid gray;
+}	
+.pink{
+	box-shadow: 0 0 15px pink;
+	background-color: pink;
+}
+.lightblue
+{
+	box-shadow: 0 0 15px lightblue;
+	background-color: lightblue;
+}
+.yellow
+{
+	box-shadow: 0 0 15px yellow;
+	background-color: yellow;
+}
+.orange
+{
+	box-shadow: 0 0 15px orange;
+	background-color: orange;
+}

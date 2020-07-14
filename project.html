@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project page</title>
+	<link rel="stylesheet" type="text/css" href="project.css">
+</head>
+<body>
+	<header>
+		<ul>
+			<li>Home</li>
+			<li class="active">Projects</li>
+			<li>inbox</li>
+			<li>Teams</li>
+		</ul>
+		<div>
+			<span class="upg">Upgrade</span>
+			<span class="jg">JG</span>
+		</div>
+	</header>
+	<div class="container">
+		<aside>
+			<div class="aside">
+			<h3>Projects</h3>
+			<ul>
+				<li>boardme development</li>
+				<li>javascript</li>
+				<li>django frameword</li>
+				<li>Topics</li>
+				<li>Bugs and fixes</li>
+				<li class="view">View all ></li>
+			</ul>
+			</div>
+			<div class="foot">
+				<h3>TEAMS</h3>
+				<div class="small">
+					
+					<h2>Need to form a team?</h2>
+					<p style="font-size: 14px;line-height: 18px;color: gray;">Try this  theme to get a better experience of ui and other things we are looking for people who are intrested in our work</p>
+					<button>Try it free</button>
+				</div>
+			</div>
+		</aside>
+		<main>
+			<h2>Projects</h2>
+			<div class="main">
+				<div class="box">
+					<div class="box-content pink">
+						M
+					</div>
+					<small>Marketing</small>
+				</div>
+
+				<div class="box">
+					<div class="box-content lightblue">
+						FL
+					</div>
+					<small>Featured list</small>
+				</div>
+
+				<div class="box">
+					<div class="box-content yellow">
+						BM
+					</div>
+					<small>Board marketing</small>
+				</div>
+
+				<div class="box">
+					<div class="box-content orange">
+						Ud
+					</div>
+					<small>Uidd development</small>
+				</div>
+				<div class="box" id="box">
+					<div class="box-content" id="content">
+						<h1>+</h1>
+					</div>
+					<small>Add a project</small>
+				</div>
+			</div>
+		</main>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript">
+		$('#content').click(function(){
+			$('.main').append('<div class="box"><div class="box-content lightblue">Name it!</div><small>New box</small></div>			'
+			);
+		});
+	</script>
+
+</body>
+</html>
